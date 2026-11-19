@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./css/stylefullpage.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Berry-Cute</title>
+    <link rel="website icon" type='png' href="./img/webicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+     <!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
+
+     <div id="basket" class="basket">
+        <div class="container">
+            <img src="./img/berry_cutepink.svg" alt="" class="basket__logo">
+            <h2 class="basket__h2">Cart of Orders</h2>
+
+
+
+            <div id="basket__block1" class="basket__block1">
+                <button onclick="basket__block1__closed()" id="basket__block__closed" class="basket__block__closed">
+                    <span class="basket__block__closed1"></span>
+                    <span class="basket__block__closed2"></span>
+                </button>
+                <img src="./img/small&mighty.svg" alt="" class="basket__block__img">
+                <h3 class="basket__block__h3">Small&Mighty <br>
+                    True Solutions </h3>
+                <p class="basket__block__p">4 KG</p>
+                <p class="basket__block__stock">In stock: 120</p>
+                <p class="basket__block__price">Amount: RM 48</p>
+            </div>
+            <p id="basket__topay1" class="basket__topay">To Pay: <span class="basket__topay1">RM 48</span></p>
+
+            <div id="basket__block2" class="basket__block2">
+                <button onclick="basket__block2__closed()" id="basket__block__closed" class="basket__block__closed">
+                    <span class="basket__block__closed1"></span>
+                    <span class="basket__block__closed2"></span>
+                </button>
+                <img src="./img/merric.svg" alt="" class="basket__block__img">
+                <h3 class="basket__block__h3">Merrick <br>
+                    Classic Healthy Grains</h3>
+                <p class="basket__block__p">3 KG</p>
+                <p class="basket__block__stock">In stock: 12</p>
+                <p class="basket__block__price">Amount: RM 43</p>
+            </div>
+            <p id="basket__topay2" class="basket__topay">To Pay: <span class="basket__topay1">RM 43</span></p>
+
+            <div id="basket__block3" class="basket__block3">
+                <button onclick="basket__block3__closed()" id="basket__block__closed" class="basket__block__closed">
+                    <span class="basket__block__closed1"></span>
+                    <span class="basket__block__closed2"></span>
+                </button>
+                <img src="./img/juminys.svg" alt="" class="basket__block__img">
+                <h3 class="basket__block__h3">Merrick <br>
+                    Classic Healthy Grains</h3>
+                <p class="basket__block__p">1,5 KG</p>
+                <p class="basket__block__stock">In stock: 124</p>
+                <p class="basket__block__price">Amount: RM 26</p>
+            </div>
+            <p id="basket__topay3" class="basket__topay">To Pay: <span class="basket__topay1">RM 26</span></p>
+
+            <div id="basket__block4" class="basket__block4">
+                <button onclick="basket__block4__closed()" id="basket__block__closed" class="basket__block__closed">
+                    <span class="basket__block__closed1"></span>
+                    <span class="basket__block__closed2"></span>
+                </button>
+                <img src="./img/playologygreen.svg" alt="" class="basket__block__img">
+                <h3 class="basket__block__h3">Playology <br>
+                    Dri-Toch Ropo Knot,
+                    Green</h3>
+                <p class="basket__block__p">1 ITEM</p>
+                <p class="basket__block__stock">In stock: 237</p>
+                <p class="basket__block__price">Amount: RM 18</p>
+            </div>
+            <p id="basket__topay4" class="basket__topay">To Pay: <span class="basket__topay1">RM 18</span></p>
+
+            <div id="basket__block5" class="basket__block5">
+                <button onclick="basket__block5__closed()" id="basket__block__closed" class="basket__block__closed">
+                    <span class="basket__block__closed1"></span>
+                    <span class="basket__block__closed2"></span>
+                </button>
+                <img src="./img/playologyblue.svg" alt="" class="basket__block__img">
+                <h3 class="basket__block__h3">Playology <br>
+                    Dual Layer Ring, 
+                    Blue</h3>
+                <p class="basket__block__p">1 ITEM</p>
+                <p class="basket__block__stock">In stock: 209</p>
+                <p class="basket__block__price">Amount: RM 14</p>
+            </div>
+            <p id="basket__topay5" class="basket__topay">To Pay: <span class="basket__topay1">RM 14</span></p>
+
+            <div id="basket__block6" class="basket__block6">
+                <button onclick="basket__block6__closed()" id="basket__block__closed" class="basket__block__closed">
+                    <span class="basket__block__closed1"></span>
+                    <span class="basket__block__closed2"></span>
+                </button>
+                <img src="./img/dogHarness.svg" alt="" class="basket__block__img">
+                <h3 class="basket__block__h3">Dog Harness & Lead <br>
+                    Light Blue </h3>
+                <p class="basket__block__p">1 ITEM</p>
+                <p class="basket__block__stock">In stock: 186</p>
+                <p class="basket__block__price">Amount: RM 25</p>
+            </div>
+            <p id="basket__topay6" class="basket__topay">To Pay: <span class="basket__topay1">RM 25</span></p>
+
+
+            <div id="basket__block7" class="basket__block7">
+                <button onclick="basket__block7__closed()" id="basket__block__closed" class="basket__block__closed">
+                    <span class="basket__block__closed1"></span>
+                    <span class="basket__block__closed2"></span>
+                </button>
+                <img src="./img/purina.svg" alt="" class="basket__block__img">
+                <h3 class="basket__block__h3">Purina One + plus, <br>
+                    Sensetive Skin & Stomach</h3>
+                <p class="basket__block__p">7,5 KG</p>
+                <p class="basket__block__stock">In stock: 98</p>
+                <p class="basket__block__price">Amount: RM 55</p>
+            </div>
+            <p id="basket__topay7" class="basket__topay">To Pay: <span class="basket__topay1">RM 55</span></p>
+
+            <div id="basket__block8" class="basket__block8">
+                <button onclick="basket__block8__closed()" id="basket__block__closed" class="basket__block__closed">
+                    <span class="basket__block__closed1"></span>
+                    <span class="basket__block__closed2"></span>
+                </button>
+                <img src="./img/purinapro.svg" alt="" class="basket__block__img">
+                <h3 class="basket__block__h3">Purina Pro Plan, <br>
+                    Fussy & Beauty</h3>
+                <p class="basket__block__p">10 PAX</p>
+                <p class="basket__block__stock">In stock: 53</p>
+                <p class="basket__block__price">Amount: RM 32</p>
+            </div>
+            <p id="basket__topay8" class="basket__topay">To Pay: <span class="basket__topay1">RM 32</span></p>
+
+            <div id="basket__block9" class="basket__block9">
+                <button onclick="basket__block9__closed()" id="basket__block__closed" class="basket__block__closed">
+                    <span class="basket__block__closed1"></span>
+                    <span class="basket__block__closed2"></span>
+                </button>
+                <img src="./img/purinaone.svg" alt="" class="basket__block__img">
+                <h3 class="basket__block__h3">Purina One, <br>
+                    Chicken & Salmon</h3>
+                <p class="basket__block__p">1 CAN</p>
+                <p class="basket__block__stock">In stock: 155</p>
+                <p class="basket__block__price">Amount: RM 10</p>
+            </div>
+            <p id="basket__topay9" class="basket__topay">To Pay: <span class="basket__topay1">RM 10</span></p>
+
+            
+
+            <div id="basket__block10" class="basket__block10">
+                <button onclick="basket__block10__closed()" id="basket__block__closed" class="basket__block__closed">
+                    <span class="basket__block__closed1"></span>
+                    <span class="basket__block__closed2"></span>
+                </button>
+                <img src="./img/cattoy_scratchingpost.svg" alt="" class="basket__block__img">
+                <h3 class="basket__block__h3">Cat Scratching <br>
+                    Post with toy </h3>
+                <p class="basket__block__p">1 ITEM</p>
+                <p class="basket__block__stock">In stock: 42</p>
+                <p class="basket__block__price">Amount: RM 28</p>
+            </div>
+            <p id="basket__topay10" class="basket__topay">To Pay: <span class="basket__topay1">RM 28</span></p>
+
+            <div id="basket__block11" class="basket__block11">
+                <button onclick="basket__block11__closed()" id="basket__block__closed" class="basket__block__closed">
+                    <span class="basket__block__closed1"></span>
+                    <span class="basket__block__closed2"></span>
+                </button>
+                <img src="./img/reddingo.svg" alt="" class="basket__block__img">
+                <h3 class="basket__block__h3">RedDingo <br>
+                    Cat Harness and Lead, Green</h3>
+                <p class="basket__block__p">1 ITEM</p>
+                <p class="basket__block__stock">In stock: 23</p>
+                <p class="basket__block__price">Amount: RM 15</p>
+            </div>
+            <p id="basket__topay11" class="basket__topay">To Pay: <span class="basket__topay1">RM 15</span></p>
+
+
+            <div id="basket__block12" class="basket__block12">
+                <button onclick="basket__block12__closed()" id="basket__block__closed" class="basket__block__closed">
+                    <span class="basket__block__closed1"></span>
+                    <span class="basket__block__closed2"></span>
+                </button>
+                <img src="./img/cattoy_mouse.svg" alt="" class="basket__block__img">
+                <h3 class="basket__block__h3">Cat Toy, <br>
+                    Mouse, Pink</h3>
+                <p class="basket__block__p">1 ITEM</p>
+                <p class="basket__block__stock">In stock: 199</p>
+                <p class="basket__block__price">Amount: RM 2</p>
+            </div>
+            <p id="basket__topay12" class="basket__topay">To Pay: <span class="basket__topay1">RM 2</span></p>
+
+
+            <div id="basket__block13" class="basket__block13">
+                <button onclick="basket__block13__closed()" id="basket__block__closed" class="basket__block__closed">
+                    <span class="basket__block__closed1"></span>
+                    <span class="basket__block__closed2"></span>
+                </button>
+                <img src="./img/small&mighty.svg" alt="" class="basket__block__img1">
+                <img src="./img/merric.svg" alt="" class="basket__block__img2">
+                <img src="./img/juminys.svg" alt="" class="basket__block__img3">
+                <h3 class="basket__block__h313">Small&Mighty, <br>
+                    True Solutions. <br>
+                    <br>
+                    Merrick, <br>
+                    Classic Healthy Grains. <br>
+                    <br>
+                    Jiminy’s, <br>
+                    Good Grub
+                </h3>
+                <p class="basket__block__p13">8,5 KG <br> 3 ITEM</p>
+                <p class="basket__block__stock13">In stock: 52</p>
+                <p class="basket__block__price13">Amount: RM 125</p>
+            </div>
+            <p id="basket__topay13" class="basket__topay">To Pay: <span class="basket__topay1">RM 125</span></p>
+
+
+
+
+            <button id="goback" onclick="goback()" class="basket__block__goback">HOME</button>
+            <form action="./indexpayment.html">
+                <button id="basket__block__buy" class="basket__block__buy">BUY NOW</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
+
+    <div id="allpage" class="allpage">
+
+        <div id="bestsellview__blockfull" class="bestsellview__blockfull"></div>
+    <header>
+        <div class="container">
+            <img class="header_img" src="./img/berry_cute.png" alt="">
+            <nav class="nav_list">
+                <a href="#home" class="nav_link">HOME</a>
+                <a href="#bestsell" class="nav_link">BEST SELLERS</a>
+                <a href="#onlytoday" class="nav_link">ONLY TODAY</a>
+                <a href="#about" class="nav_link">ABOUT US</a>
+                <a href="#dogs" class="nav_link">DOGS</a>
+                <a href="#cats" class="nav_link">CATS</a>
+                <a href="#contact" class="nav_link">CONTACTS</a>
+            </nav>
+        
+            <button id="header_btn" onclick="busket()" class="header_icon">
+                <img class="header_bascket" src="./img/icon_bascket.svg" alt="">
+            </button>
+
+        </div>
+    </header>
+
+    <div id="home" class="intro">
+        <img src="./img/back_intro.svg" alt="" class="intro_back">
+        <div class="container">
+            <h1 class="intro_title">Do you need help with choosing<br>products for your pet?</h1>
+
+            <p class="intro_under_title">you can contact our specialist</p>
+            <p class="intro_open">We are open from 8:00 to 22:00 every day</p>
+            <p class="intro_no_open">except public holidays</p>
+
+            
+
+            
+
+            
+            
+        </div>
+    </div>
+
+    <div id="bestsell" class="bestsell">
+        <div class="container">
+
+            <h2 class="bestsell__h2">BEST SELLERS</h2>
+
+            
+            
+            <div class="bestsell__block1">
+                <img src="./img/bestsell_dogfood.svg" alt="" class="bestsell__block__img bestsell__block__img1">
+                <p class="bestsell__block__name">Small&Mighty <br>
+                    True Solutions </p>
+                <p class="bestsell__block__price">RM 48</p>
+                <button type="submit" onclick="productView1()" class="bestsell__block__button">View product</button>
+            </div>
+
+            <div id="bestsellview__block1" class="bestsellview__block1">
+                <button type="submit" onclick="productClosed1()" class="bestsellview__closed">
+                    <span class="bestsellview__closed1"></span>
+                    <span class="bestsellview__closed2"></span>
+                </button>
+                <img src="./img/bestsell_dogfood.svg" alt="" class="bestsellview__block__img">
+                <p class="bestsellview__block__name">Small&Mighty <br>
+                    True Solutions, <br>
+                    4 Kg </p>
+                <p class="bestsellview__block__price">RM 48</p>
+                <button type="submit" onclick="basket__block1()" class="bestsellview__block__button">Add to cart</button>
+            </div>
+
+            <div class="bestsell__block2">
+                <img src="./img/catfood_can.svg" alt="" class="bestsell__block__img bestsell__block__img2">
+                <p class="bestsell__block__name bestsell__block__name2">Purina One, <br>
+                    Healthy Kitten, <br>
+                    Chicken & Salmon</p>
+                <p class="bestsell__block__price">RM 10</p>
+                <button type="submit" onclick="productView2()" class="bestsell__block__button">View product</button>
+            </div>
+
+            <div id="catsview__block3" class="bestsellview__block2">
+                <button type="submit" onclick="productClosed2()" class="bestsellview__closed">
+                    <span class="bestsellview__closed1"></span>
+                    <span class="bestsellview__closed2"></span>
+                </button>
+                <img src="./img/purinaone.svg" alt="" class="bestsellview__block__img bestsellview__block__img2">
+                <p class="bestsellview__block__name">Purina One, <br>
+                    Healthy Kitten, <br> 
+                    Chicken & Salmon, <br>
+                    1 Can</p>
+                <p class="bestsellview__block__price">RM 10</p>
+                <button type="submit" onclick="basket__block9()" class="bestsellview__block__button">Add to cart</button>
+            </div>
+
+            <div id="bestsell__block3" class="bestsell__block3">
+                <img src="./img/catfood_10pax.svg" alt="" class="bestsell__block__img">
+                <p class="bestsell__block__name bestsell__block__name3">Purina Pro Plan, <br>
+                    Fussy & Beauty</p>
+                <p class="bestsell__block__price">RM 32</p>
+                <button type="submit" onclick="productView3()" class="bestsell__block__button">View product</button>
+            </div>
+
+            <div id="catsview__block2" class="bestsellview__block3">
+                <button type="submit" onclick="productClosed3()" class="bestsellview__closed">
+                    <span class="bestsellview__closed1"></span>
+                    <span class="bestsellview__closed2"></span>
+                </button>
+                <img src="./img/purinapro.svg" alt="" class="bestsellview__block__img bestsellview__block__img3">
+                <p class="bestsellview__block__name">Purina Pro Plan, <br>
+                    Fussy & Beauty, <br>
+                    10 Pax </p>
+                <p class="bestsellview__block__price">RM 32</p>
+                <button type="submit" onclick="basket__block8()" class="bestsellview__block__button">Add to cart</button>
+            </div>
+
+            <div class="bestsell__block4">
+                <img src="./img/cattoy_mouse.svg" alt="" class="bestsell__block__img">
+                <p class="bestsell__block__name bestsell__block__name4">Cat Toy, <br>
+                    Mouse, Pink</p>
+                <p class="bestsell__block__price">RM 2</p>
+                <button type="submit" onclick="productView4()" class="bestsell__block__button">View product</button>
+            </div>
+
+            <div id="catsview__block6" class="bestsellview__block4">
+                <button type="submit" onclick="productClosed4()" class="bestsellview__closed">
+                    <span class="bestsellview__closed1"></span>
+                    <span class="bestsellview__closed2"></span>
+                </button>
+                <img src="./img/cattoy.svg" alt="" class="bestsellview__block__img bestsellview__block__img4">
+                <p class="bestsellview__block__name">Cat Toy, <br>
+                    Mouse, Pink, <br>
+                    1 Item</p>
+                <p class="bestsellview__block__price">RM 2</p>
+                <button type="submit" onclick="basket__block12()" class="bestsellview__block__button">Add to cart</button>
+            </div>
+
+            <div class="bestsell__block5">
+                <img src="./img/cattoy_scratchingpost.svg" alt="" class="bestsell__block__img bestsell__block__img5">
+                <p class="bestsell__block__name">Cat Scratching <br>
+                    Post with toy</p>
+                <p class="bestsell__block__price">RM 28</p>
+                <button type="submit" onclick="productView5()" class="bestsell__block__button">View product</button>
+            </div>
+
+            <div id="catsview__block4" class="bestsellview__block5">
+                <button type="submit" onclick="productClosed5()" class="bestsellview__closed">
+                    <span class="bestsellview__closed1"></span>
+                    <span class="bestsellview__closed2"></span>
+                </button>
+                <img src="./img/cattoy_scratchingpost.svg" alt="" class="bestsellview__block__img bestsellview__block__img5">
+                <p class="bestsellview__block__name">Cat Scratching <br>
+                    Post with toy, <br>
+                    1 Item</p>
+                <p class="bestsellview__block__price">RM 28</p>
+                <button type="submit" onclick="basket__block10()" class="bestsellview__block__button">Add to cart</button>
+            </div>
+
+        </div>
+    </div>
+    
+
+    <div id="onlytoday" class="onlytoday">
+        <div class="container">
+            <h2 class="onlytoday__name">ONLY TODAY</h2>
+
+            <img src="./img/onlytoday_food.svg" alt="" class="onlytoday__food">
+            <p class="onlytoday__name__text">ALL THREE ITEMS</p>
+            <p class="onlytoday__price">RM 125</p>
+            <button onclick="basket__block13()" class="onlytoday__button">Add to cart</button>
+        </div>
+    </div>
+
+        <div id="about" class="about">
+            <div class="container">
+                <h2 class="about__name">ABOUT US</h2>
+
+                <p class="about__save">YOU ARE SAVING LIVES</p>
+                <p class="about__startwork">Our store is based on helping several shelters<br>from 2022.</p>
+                <p class="about__population">We specialize in dogs and cats as their<br>populations have grown significantly.</p>
+                <p class="about__percentage">A large percentage of your purchases goes to the<br>shelters we work with.</p>
+                <p class="about__yourhelp">With your help, more than 2,000<br>animals were saved.</p>
+                <p class="about__thankyou">Thank You!</p>
+                <p class="about__donate">Do you want to donate us? <a href="./indexdonat.html" class="about__clickhere">Click here</a></p>
+
+                <img src="./img/aboutus_dog.svg" alt="" class="about__img">
+                <p class="about__subimg">This is Molly, one of many<br>who found a home.</p>
+            </div>
+        </div>
+
+        <div id="dogs" class="dogs">
+            <div class="container">
+                <h2 class="dogs__h2">DOGS</h2>
+                <h3 class="dogs__h3">Food</h3>
+                
+                <div class="dogs__block1">
+                    <img src="./img/bestsell_dogfood.svg" alt="" class="dogs__block__img">
+                    <p class="dogs__block__name">Small&Mighty <br>
+                        True Solutions </p>
+                    <p class="dogs__block__price">RM 48</p>
+                    <button type="submit" onclick="productViewDogs1()" class="dogs__block__button">View product</button>
+                </div>
+
+                <div id="dogsview__block1" class="dogsview__block1">
+                    <button type="submit" onclick="productClosedDogs1()" class="bestsellview__closed">
+                        <span class="bestsellview__closed1"></span>
+                        <span class="bestsellview__closed2"></span>
+                    </button>
+                    <img src="./img/bestsell_dogfood.svg" alt="" class="bestsellview__block__img">
+                    <p class="bestsellview__block__name">Small&Mighty <br>
+                        True Solutions, <br>
+                        4 Kg </p>
+                    <p class="bestsellview__block__price">RM 48</p>
+                    <button type="submit" onclick="basket__block1()" class="bestsellview__block__button">Add to cart</button>
+                </div>
+    
+                <div class="dogs__block2">
+                    <img src="./img/merric.svg" alt="" class="dogs__block__img dogs__block__img1">
+                    <p class="dogs__block__name">Merrick <br>
+                        Classic Healthy Grains </p>
+                    <p class="dogs__block__price">RM 43</p>
+                    <button type="submit" onclick="productViewDogs2()" class="dogs__block__button">View product</button>
+                </div>
+
+                <div id="dogsview__block2" class="dogsview__block2">
+                    <button type="submit" onclick="productClosedDogs2()" class="bestsellview__closed">
+                        <span class="bestsellview__closed1"></span>
+                        <span class="bestsellview__closed2"></span>
+                    </button>
+                    <img src="./img/merric.svg" alt="" class="bestsellview__block__img">
+                    <p class="bestsellview__block__name">Merrick <br>
+                        Classic Healthy Grains, <br>
+                        3 Kg </p>
+                    <p class="bestsellview__block__price">RM 43</p>
+                    <button type="submit" onclick="basket__block2()" class="bestsellview__block__button">Add to cart</button>
+                </div>
+    
+                <div class="dogs__block3">
+                    <img src="./img/juminys.svg" alt="" class="dogs__block__img dogs__block__img2">
+                    <p class="dogs__block__name">Jiminy’s <br>
+                        Good Grub</p>
+                    <p class="dogs__block__price">RM 26</p>
+                    <button type="submit" onclick="productViewDogs3()" class="dogs__block__button">View product</button>
+                </div>
+
+                <div id="dogsview__block3" class="dogsview__block3">
+                    <button type="submit" onclick="productClosedDogs3()" class="bestsellview__closed">
+                        <span class="bestsellview__closed1"></span>
+                        <span class="bestsellview__closed2"></span>
+                    </button>
+                    <img src="./img/juminys.svg" alt="" class="bestsellview__block__img">
+                    <p class="bestsellview__block__name">Jiminy’s <br>
+                        Good Grub, <br>
+                        1,5Kg</p>
+                    <p class="bestsellview__block__price">RM 26</p>
+                    <button type="submit" onclick="basket__block3()" class="bestsellview__block__button">Add to cart</button>
+                </div>
+
+                <h4 class="dogs__h4">Toys & Other</h4>
+
+                <div class="dogs__block4">
+                    <img src="./img/playologygreen.svg" alt="" class="dogs__block__img">
+                    <p class="dogs__block__name">Playology <br>
+                        Dri-Toch Ropo Knot</p>
+                    <p class="dogs__block__price">RM 18</p>
+                    <button type="submit" onclick="productViewDogs4()" class="dogs__block__button">View product</button>
+                </div>
+
+                <div id="dogsview__block4" class="dogsview__block4">
+                    <button type="submit" onclick="productClosedDogs4()" class="bestsellview__closed">
+                        <span class="bestsellview__closed1"></span>
+                        <span class="bestsellview__closed2"></span>
+                    </button>
+                    <img src="./img/playologygreen.svg" alt="" class="bestsellview__block__img">
+                    <p class="bestsellview__block__name">Playology <br>
+                        Dri-Toch Ropo Knot, <br>
+                        Green, 1 Item</p>
+                    <p class="bestsellview__block__price">RM 18</p>
+                    <button type="submit" onclick="basket__block4()" class="bestsellview__block__button">Add to cart</button>
+                </div>
+    
+                <div class="dogs__block5">
+                    <img src="./img/playologyblue.svg" alt="" class="dogs__block__img dogs__block__img1">
+                    <p class="dogs__block__name">Playology <br>
+                        Dual Layer Ring </p>
+                    <p class="dogs__block__price">RM 14</p>
+                    <button type="submit" onclick="productViewDogs5()" class="dogs__block__button">View product</button>
+                </div>
+
+                <div id="dogsview__block5" class="dogsview__block5">
+                    <button type="submit" onclick="productClosedDogs5()" class="bestsellview__closed">
+                        <span class="bestsellview__closed1"></span>
+                        <span class="bestsellview__closed2"></span>
+                    </button>
+                    <img src="./img/playologyblue.svg" alt="" class="bestsellview__block__img">
+                    <p class="bestsellview__block__name">Playology <br>
+                        Dual Layer Ring, <br>
+                        Blue, 1 Item</p>
+                    <p class="bestsellview__block__price">RM 14</p>
+                    <button type="submit" onclick="basket__block5()" class="bestsellview__block__button">Add to cart</button>
+                </div>
+    
+                <div class="dogs__block6">
+                    <img src="./img/dogHarness.svg" alt="" class="dogs__block__img dogs__block__img6">
+                    <p class="dogs__block__name">Dog Harness & Lead <br>
+                        Light Blue</p>
+                    <p class="dogs__block__price">RM 25</p>
+                    <button type="submit" onclick="productViewDogs6()" class="dogs__block__button">View product</button>
+                </div>
+
+                <div id="dogsview__block6" class="dogsview__block6">
+                    <button type="submit" onclick="productClosedDogs6()" class="bestsellview__closed">
+                        <span class="bestsellview__closed1"></span>
+                        <span class="bestsellview__closed2"></span>
+                    </button>
+                    <img src="./img/dogHarness.svg" alt="" class="bestsellview__block__img bestsellview__block__img6">
+                    <p class="bestsellview__block__name">Dog Harness & Lead <br>
+                        Light Blue, <br>
+                        1 Item</p>
+                    <p class="bestsellview__block__price">RM 25</p>
+                    <button type="submit" onclick="basket__block6()" class="bestsellview__block__button">Add to cart</button>
+                </div>
+
+            </div>
+        </div>
+
+        <div id="cats" class="cats">
+            <div class="container">
+                <h2 class="cats__h2">CATS</h2>
+                <h3 class="cats__h3">Food</h3>
+                
+                <div class="cats__block1">
+                    <img src="./img/purina.svg" alt="" class="cats__block__img cats__block__img1">
+                    <p class="cats__block__name">Purina One + plus, <br>
+                        Sensetive Skin & Stomach</p>
+                    <p class="cats__block__price">RM 55</p>
+                    <button type="submit" onclick="productViewCats1()" class="cats__block__button">View product</button>
+                </div>
+
+                <div id="catsview__block1" class="catsview__block1">
+                    <button type="submit" onclick="productClosedCats1()" class="bestsellview__closed">
+                        <span class="bestsellview__closed1"></span>
+                        <span class="bestsellview__closed2"></span>
+                    </button>
+                    <img src="./img/purina.svg" alt="" class="bestsellview__block__img bestsellview__block__img7">
+                    <p class="bestsellview__block__name">Purina One + plus, <br>
+                        Sensetive Skin & Stomach, <br>
+                        7,5 KG</p>
+                    <p class="bestsellview__block__price">RM 55</p>
+                    <button type="submit" onclick="basket__block7()" class="bestsellview__block__button">Add to cart</button>
+                </div>
+        
+                <div class="cats__block2">
+                    <img src="./img/purinapro.svg" alt="" class="cats__block__img cats__block__img2">
+                    <p class="cats__block__name">Purina Pro Plan, <br>
+                        Fussy & Beauty</p>
+                    <p class="cats__block__price">RM 32</p>
+                    <button type="submit" onclick="productViewCats2()" class="cats__block__button">View product</button>
+                </div>
+
+                <div id="catsview__block2" class="catsview__block2">
+                    <button onclick="productClosedCats2()" class="bestsellview__closed">
+                        <span class="bestsellview__closed1"></span>
+                        <span class="bestsellview__closed2"></span>
+                    </button>
+                    <img src="./img/purinapro.svg" alt="" class="bestsellview__block__img bestsellview__block__img2">
+                    <p class="bestsellview__block__name">Purina Pro Plan, <br>
+                        Fussy & Beauty, <br>
+                        10 Pax </p>
+                    <p class="bestsellview__block__price">RM 32</p>
+                    <button type="submit" onclick="basket__block8()" class="bestsellview__block__button">Add to cart</button>
+                </div>
+        
+                <div class="cats__block3">
+                    <img src="./img/purinaone.svg" alt="" class="cats__block__img cats__block__img3">
+                    <p class="cats__block__name">Purina One, <br>
+                        Healthy Kitten, <br>
+                        Chicken & Salmon</p>
+                    <p class="cats__block__price">RM 10</p>
+                    <button type="submit" onclick="productViewCats3()" class="cats__block__button">View product</button>
+                </div>
+
+                <div id="catsview__block3" class="catsview__block3">
+                    <button type="submit" onclick="productClosedCats3()" class="bestsellview__closed">
+                        <span class="bestsellview__closed1"></span>
+                        <span class="bestsellview__closed2"></span>
+                    </button>
+                    <img src="./img/purinaone.svg" alt="" class="bestsellview__block__img bestsellview__block__img2">
+                    <p class="bestsellview__block__name">Purina One, <br>
+                        Healthy Kitten, <br> 
+                        Chicken & Salmon, <br>
+                        1 Can</p>
+                    <p class="bestsellview__block__price">RM 10</p>
+                    <button type="submit" onclick="basket__block9()" class="bestsellview__block__button">Add to cart</button>
+                </div>
+        
+                <h4 class="cats__h4">Toys & Other</h4>
+        
+                <div class="cats__block4">
+                    <img src="./img/cattoy_scratchingpost.svg" alt="" class="cats__block__img cats__block__img4">
+                    <p class="cats__block__name">Cat Scratching <br>
+                        Post with toy</p>
+                    <p class="cats__block__price">RM 28</p>
+                    <button type="submit" onclick="productViewCats4()" class="cats__block__button">View product</button>
+                </div>
+
+                <div id="catsview__block4" class="catsview__block4">
+                    <button type="submit" onclick="productClosedCats4()" class="bestsellview__closed">
+                        <span class="bestsellview__closed1"></span>
+                        <span class="bestsellview__closed2"></span>
+                    </button>
+                    <img src="./img/cattoy_scratchingpost.svg" class="bestsellview__block__img bestsellview__block__img5">
+                    <p class="bestsellview__block__name">Cat Scratching <br>
+                        Post with toy, <br>
+                        1 Item</p>
+                    <p class="bestsellview__block__price">RM 28</p>
+                    <button type="submit" onclick="basket__block10()" class="bestsellview__block__button">Add to cart</button>
+                </div>
+        
+                <div class="cats__block5">
+                    <img src="./img/reddingo.svg" alt="" class="cats__block__img cats__block__img5">
+                    <p class="cats__block__name">RedDingo <br>
+                        Cat Harness and Lead</p>
+                    <p class="cats__block__price">RM 15</p>
+                    <button type="submit" onclick="productViewCats5()" class="cats__block__button">View product</button>
+                </div>
+
+                <div id="catsview__block5" class="catsview__block5">
+                    <button type="submit" onclick="productClosedCats5()" class="bestsellview__closed">
+                        <span class="bestsellview__closed1"></span>
+                        <span class="bestsellview__closed2"></span>
+                    </button>
+                    <img src="./img/reddingo.svg" alt="" class="bestsellview__block__img bestsellview__block__img5">
+                    <p class="bestsellview__block__name">RedDingo <br>
+                        Cat Harness and Lead, <br>
+                        Green, 1 Item</p>
+                    <p class="bestsellview__block__price">RM 15</p>
+                    <button type="submit" onclick="basket__block11()" class="bestsellview__block__button">Add to cart</button>
+                </div>
+        
+                <div class="cats__block6">
+                    <img src="./img/cattoy.svg" alt="" class="cats__block__img cats__block__img6">
+                    <p class="cats__block__name">Cat Toy, <br>
+                        Mouse, Pink</p>
+                    <p class="cats__block__price">RM 2</p>
+                    <button type="submit" onclick="productViewCats6()" class="cats__block__button">View product</button>
+                </div>
+
+                <div id="catsview__block6" class="catsview__block6">
+                    <button type="submit" onclick="productClosedCats6()" class="bestsellview__closed">
+                        <span class="bestsellview__closed1"></span>
+                        <span class="bestsellview__closed2"></span>
+                    </button>
+                    <img src="./img/cattoy.svg" alt="" class="bestsellview__block__img bestsellview__block__img4">
+                    <p class="bestsellview__block__name">Cat Toy, <br>
+                        Mouse, Pink, <br>
+                        1 Item</p>
+                    <p class="bestsellview__block__price">RM 2</p>
+                    <button type="submit" onclick="basket__block12()" class="bestsellview__block__button">Add to cart</button>
+                </div>
+        
+            </div>
+        </div>
+        
+        <footer id="contact">
+            <div class="container">
+                
+                <div class="footer__span"></div>
+                <nav class="nav_list">
+                    <a href="#home" class="nav_link1">HOME</a>
+                    <a href="#bestsell" class="nav_link1">BEST SELLERS</a>
+                    <a href="#onlytoday" class="nav_link1">ONLY TODAY</a>
+                    <a href="#about" class="nav_link1">ABOUT US</a>
+                    <a href="#dogs" class="nav_link1">DOGS</a>
+                    <a href="#cats" class="nav_link1">CATS</a>
+                    <a href="#contacts" class="nav_link1">CONTACTS</a>
+                </nav>
+
+                
+                
+
+            </div>
+        </footer>
+
+    </div>
+
+
+    <script src="./js/script.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,149 @@
+.container {
+    position: relative;
+    max-width: 1240px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.donat {
+    position: absolute;
+    width: 1440px;
+    height: 990px;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #fff;
+}
+
+.donat__logo {
+    position: absolute;
+    top: 30px;
+    left: 0;
+}
+
+.donat__video {
+    position: absolute;
+    top: 100px;
+}
+
+.donat__text1 {
+    position: absolute;
+    top: 620px;
+    color: #413B3B;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.donat__text2 {
+    position: absolute;
+    top: 650px;
+    color: #BC6D7C;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.donat__text3 {
+    position: absolute;
+    top: 698px;
+    color: #413B3B;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.donat__form {
+    position: absolute;
+    bottom: 200px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+}
+
+.donat__form__input {
+    width: 256px;
+    height: 26px;
+    padding: 5px 12px 5px 12px;
+    margin: 0;
+    border-radius: 6px;
+    background: #F2F2F2;
+    outline: none;
+    border: none;
+}
+
+.donat__form__lable {
+    position: absolute;
+    bottom: -14px;
+    left: 0;
+    color: #413B3B;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.donat__btn {
+    position: absolute;
+    width: 140px;
+    height: 41px;
+    top: 72px;
+    border-radius: 6px;
+    background: #BC6D7C;
+    color: #F2F2F2;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    outline: none;
+    border: none;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.donat__btn:hover {
+    background: #A96270;
+}
+
+.donat__help {
+    position: absolute;
+    right: 55px;
+    bottom: 30px;
+    color: #413B3B;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.donat__wasup {
+    position: absolute;
+    right: 0;
+    bottom: 36px;
+    transition: 0.2s;
+    width: 30px;
+    height: 30px;
+}
+
+.donat__wasup:hover {
+    width: 31px;
+    height: 31px;
+}

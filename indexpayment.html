@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./css/stylepayment.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Berry-Cute payment</title>
+    <link rel="website icon" type='png' href="./img/webicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>  
+
+    <div class="background">
+
+        <div class="back__pay">
+            <div id="payment" class="payment">
+                <div class="container1">
+                    <img src="./img/berry_cutepink.svg" alt="" class="payment__logo">
+                    <h2 class="payment__totalprice">AMOUNT</h2>
+                    <p class="payment__totalrandomprice">total price</p>
+
+                    <p class="payment__method__name">Choose your payment method</p>
+    
+                    <button id="payment__methodcard" type="submit" onclick="btnon()" class="payment__methodcard"><img src="./img/cardmethod.svg" alt="" class="payment__methodcard__img">Credit/Debit Card</button>
+                    <button id="payment__methodcard__active" type="submit" class="payment__methodcard__active"><img src="./img/cardmethod.svg" alt="" class="payment__methodcard__img">Credit/Debit Card</button>
+
+                    <button id="payment__methodtachngo" type="submit" onclick="btnon2()" class="payment__methodtachngo"><img src="./img/touch-n-go.svg" alt="" class="payment__methodtachngo__img">Touch’n Go eWallet</button>
+                    <button id="payment__methodtachngo__active" type="submit" class="payment__methodtachngo__active"><img src="./img/touch-n-go.svg" alt="" class="payment__methodtachngo__img">Touch’n Go eWallet</button>
+
+                    <a href="./indexfullpage.html" class="payment__goback">Go back to main page</a>
+                </div>
+            </div>
+            <span id="partition" class="partition"></span>
+            <div id="pay" class="pay">
+
+                <h2 id="pay__h2" class="pay__h2">Choose your payment method</h2>
+
+                <div id="pay__successful" class="pay__successful">
+                    <h2 class="pay__successful__successful">payment was successful! <br> <span class="pay__successful__successfulTH">Thank you!</span> </h2>
+                    <a href="./indexfullpage.html" class="pay__btn__successful">Go back to main page</a>
+                    <img src="./img/security.svg" alt="" class="pay__security">
+                    <img src="./img/goodpay.svg" alt="" class="pay__successful__img">
+                </div>
+
+                <div id="payCARD" class="payCARD">
+                    <div class="payCARD__card">
+                        <img src="./img/cardchipp.svg" alt="" class="payCARD__card__chip">
+                        <form action="#" class="payCARD__card__form">
+                            <lable class="payCARD__cardnumber__lable">CARD NUMDER</lable>
+                            <input name="cardnumber" type="text" maxlength="16" class="payCARD__cardnumber">
+                            <lable class="payCARD__date__lable">DATE</lable>
+                            <input type="text" maxlength="4" class="payCARD__date">
+                            <lable class="payCARD__cvv__lable">CVV</lable>
+                            <input type="password" maxlength="3" class="payCARD__cvv">
+                        </form>
+                    </div>
+                    <form action="#" class="pay__mail">
+                        <input type="email" name="email" class="form_input" placeholder="Your Email...">
+                    </form>
+                    <button id="pay__btn" onclick="successful()" class="pay__btn">Pay Now</button>
+                    <img src="./img/security.svg" alt="" class="pay__security">
+                </div>
+                
+                <div id="payQR" class="payQR">
+                    
+                    <p class="payQR__text">Demo eWallet screen</p>
+                    <form action="#" class="pay__mail">
+                        <input type="email" name="email" class="form_input" placeholder="Your Email...">
+                    </form>
+                    <button id="pay__btn" onclick="successful()" class="pay__btn">Pay Now</button>
+                    <img src="./img/security.svg" alt="" class="pay__security">
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="./js/scriptpayment.js"></script>
+
+</body>
+</html>

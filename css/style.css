@@ -1,0 +1,158 @@
+.container {
+    max-width: 1040px;
+    height: 100%;
+    margin: 0 auto;
+    align-items: center;
+    overflow: show;
+    display: flex;
+    justify-content: center;
+
+}
+
+.intro {
+    position: absolute;
+    max-width: 100%;
+    width: 1440px;
+    height: 800px;
+    top: 0;
+    right: 0;
+    left: 0;
+
+}
+
+.intro_title {
+    position: absolute;
+    z-index: 1;
+    top: 10px;
+    margin: 0;
+    color: #BC6D7C;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.intro_subtitle {
+    position: absolute;
+    z-index: 1;
+    margin: 0;
+    top: 62px;
+    color: #BC6D7C;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.intro_img {
+    position: absolute;
+    top: 20px;
+    z-index: 0;
+    width: 1150px;
+    flex-shrink: 0;
+}
+
+.form {
+    position: absolute;
+    text-align: center;
+    top: 461px;
+    width: 281px;
+    height: 223px;
+    margin: 0;
+}
+
+.form_title {
+    margin: 0;
+    align-items: center;
+    color: #BC6D7C;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.form_login,
+.form_pass {
+    position: relative;
+}
+
+.form_input1 {
+    width: 271px;
+    height: 20px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    background: #f2f2f2;
+    padding: 10px;
+}
+
+.form_lable1 {
+    position: absolute;
+    top: -20px;
+    color: #BC6D7C;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.form_input2 {
+    width: 271px;
+    height: 20px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    background: #f2f2f2;
+    padding: 10px;
+}
+
+.form_lable2 {
+    position: absolute;
+    top: -20px;
+    color: #BC6D7C;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.form_login {
+    top: 40px;
+}
+
+.form_pass {
+    top: 75px;
+}
+
+.form_button {
+    text-align: center;
+    margin-top: 105px;
+    color: #F2F2F2;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 100px;
+    height: 31px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    background: #BC6D7C;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.form_button:hover {
+    width: 102px;
+    height: 33px;
+    font-size: 13px;
+}

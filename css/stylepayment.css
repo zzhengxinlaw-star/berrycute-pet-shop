@@ -1,0 +1,494 @@
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1440px;
+    height: 813px;
+    background: #F2F2F2;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.back__pay {
+    position: absolute;
+    width: 1289px;
+    height: 619px;
+    background: #fff;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.container1 {
+    position: relative;
+    width: 333px;
+    height: 100%;
+    left: 0;
+    top: 0;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.partition {
+    position: absolute;
+    width: 4px;
+    height: 619px;
+    left: 430px;
+    background: #F2F2F2;
+}
+
+.payment {
+    position: absolute;
+    width: 430px;
+    height: 619px;
+    background: #fff;
+    left: 0;
+    top: 0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.payment__logo {
+    position: absolute;
+    top: 50px;
+}
+
+.payment__totalprice {
+    position: absolute;
+    top: 120px;
+    color: #413B3B;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.payment__totalrandomprice {
+    position: absolute;
+    top: 180px;
+    color: #413B3B;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.payment__goback {
+    position: absolute;
+    color: #BC6D7C;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    bottom: 40px;
+}
+
+.payment__method__name {
+    position: absolute;
+    color: #BC6D7C;
+    text-align: center;
+    top: 290px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.payment__methodcard {
+    display: block;
+    position: absolute;
+    top: 350px;
+    width: 333px;
+    height: 43px;
+    right: 0;
+    padding-right: 90px;
+    background: #F2F2F2;
+    border: none;
+    outline: none;
+    transition: 0.2s;
+    color: #413B3B;
+    font-family: Montserrat;
+    font-size: 13px;
+    font-weight: 600;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.payment__methodcard:hover {
+    background: #ebebeb;
+}
+
+.payment__methodcard__active {
+    display: none;
+    position: absolute;
+    top: 350px;
+    width: 333px;
+    height: 43px;
+    right: 0;
+    padding-right: 90px;
+    color: #F2F2F2;
+    border: none;
+    outline: none;
+    transition: 0.2s;
+    background: #413B3B;
+    font-family: Montserrat;
+    font-size: 13px;
+    font-weight: 600;
+    border-radius: 6px;
+}
+
+.payment__methodcard__active:hover {
+    background: #544c4c;
+}
+
+.payment__methodcard__img {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+.payment__methodtachngo {
+    display: block;
+    position: absolute;
+    top: 420px;
+    width: 333px;
+    height: 43px;
+    right: 0;
+    padding-right: 80px;
+    background: #F2F2F2;
+    border: none;
+    outline: none;
+    transition: 0.2s;
+    color: #413B3B;
+    font-family: Montserrat;
+    font-size: 13px;
+    font-weight: 600;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.payment__methodtachngo:hover {
+    background: #ebebeb;
+}
+
+.payment__methodtachngo__active {
+    display: none;
+    position: absolute;
+    top: 420px;
+    width: 333px;
+    height: 43px;
+    right: 0;
+    padding-right: 80px;
+    color: #F2F2F2;
+    border: none;
+    outline: none;
+    transition: 0.2s;
+    background: #413B3B;
+    font-family: Montserrat;
+    font-size: 13px;
+    font-weight: 600;
+    border-radius: 6px;
+}
+
+.payment__methodtachngo__active:hover {
+    background: #544c4c;
+}
+
+.payment__methodtachngo__img {
+    position: absolute;
+    left: 14px;
+    top: 6px;
+}
+
+.pay__successful {
+    position: absolute;
+    right: 0;
+    left: 0;
+    width: 1289px;
+    height: 619px;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    display: none;
+    align-items: center;
+}
+
+.pay__btn__successful {
+    position: absolute;
+    color: #BC6D7C;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    bottom: 100px;
+    transition: 0.2s;
+}
+
+.pay__btn__successful:hover {
+    font-size: 18.5px;
+}
+
+.pay__successful__successful {
+    position: absolute;
+    top: 380px;
+    text-align: center;
+    color: #413B3B;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.pay__successful__successfulTH {
+    text-transform: capitalize;
+}
+
+.pay__successful__img {
+    position: absolute;
+    top: 30px;
+}
+
+.pay {
+    position: absolute;
+    right: 0;
+    width: 857px;
+    height: 619px;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.pay__h2 {
+    display: block;
+    color: #413B3B;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+
+.pay__btn {
+    position: absolute;
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    outline: none;
+    border: none;
+    background: #BC6D7C;
+    border-radius: 6px;
+    width: 310px;
+    height: 44px;
+    bottom: 100px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.pay__btn:hover {
+    background: #A96270;
+}
+
+/* .pay__btn:hover {
+    width: 362px;
+    height: 49px;
+    font-size: 25px;
+} */
+
+.pay__mail {
+    position: absolute;
+    bottom: 180px;
+}
+
+.form_input {
+    width: 278px;
+    height: 24px;
+    padding: 10px 16px 10px 16px;
+    border-radius: 6px;
+    background: #F2F2F2;
+    border: none;
+    outline: none;
+}
+
+.pay__security {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+}
+
+
+/* QR */
+
+.payQR {
+    position: absolute;
+    right: 0;
+    width: 857px;
+    height: 619px;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    display: none;
+    align-items: center;
+}
+
+.payQR__img {
+    position: absolute;
+    top: 20px;
+}
+
+.payQR__text {
+    position: absolute;
+    top: 310px;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+/* CARD */
+
+.payCARD {
+    position: absolute;
+    right: 0;
+    width: 857px;
+    height: 619px;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    display: none;
+    align-items: center;
+}
+
+.payCARD__card {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    top: 50px;
+    position: absolute;
+    width: 472px;
+    height: 287px;
+    border-radius: 22px;
+    background: #BC6D7C;
+}
+
+.payCARD__card__chip {
+    position: absolute;
+    top: 32px;
+    left: 32px;
+}
+
+.payCARD__card__form {
+    position: absolute;
+    width: 350px;
+    height: 110px;
+    left: 30px;
+    top: 140px;
+}
+
+.payCARD__cardnumber__lable {
+    position: absolute;
+    top: -20px;
+    color: #f2f2f2;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.payCARD__cardnumber {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 329px;
+    height: 24px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 6px;
+    color: #f2f2f2;
+    background: #A96270;
+    border: none;
+    outline: none;
+}
+
+
+.payCARD__date {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 53px;
+    height: 24px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 6px;
+    color: #f2f2f2;
+    background: #A96270;
+    border: none;
+    outline: none;
+}
+
+.payCARD__date__lable {
+    position: absolute;
+    top: 57px;
+    color: #f2f2f2;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.payCARD__cvv {
+    position: absolute;
+    bottom: 0;
+    left: 128px;
+    width: 38px;
+    height: 24px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 6px;
+    color: #f2f2f2;
+    background: #A96270;
+    border: none;
+    outline: none;
+}
+
+.payCARD__cvv__lable {
+    position: absolute;
+    left: 128px;
+    top: 57px;
+    color: #f2f2f2;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
